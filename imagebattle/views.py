@@ -10,3 +10,7 @@ def index():
 @app.route('/leading', methods=['GET'])
 def leading():
     return render_template('leading.html')
+	
+@app.route('/team', methods=['GET'])
+def team():
+    return render_template('team.html')
